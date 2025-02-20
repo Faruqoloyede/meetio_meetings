@@ -67,7 +67,7 @@ const Header = () => {
 
                 {/* Dropdown Menu */}
                 {open && (
-                    <div className="absolute z-[1000] left-1/2 -translate-x-1/2 max-sm:left-0 max-sm:w-full mt-2 w-60 bg-[#040404DB] rounded-lg shadow-lg p-3 transition-all duration-500">
+                    <div className="absolute z-[1000] left-1/2 -translate-x-1/2 max-sm:left-28 max-sm:w-full mt-2 w-60 bg-[#040404DB] rounded-lg shadow-lg p-3 transition-all duration-500">
                         {participants.map((person, index) => (
                             <div className="flex items-center space-x-4 p-2 hover:bg-gray-700 rounded-md" key={index}>
                                 <img src={person.image} alt={person.name} className="w-8 h-8 rounded-full object-cover" />
