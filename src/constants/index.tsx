@@ -7,73 +7,73 @@ export const users = [
         id:1,
         img: '/user.png',
         name: 'Kamaldeen Iddrisu',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer" />
     },
     {
         id: 2,
         img: '/user.png',
         name: 'Kamaldeen Iddrisu',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"   />
     },
     {
         id: 3,
         img: '/user.png',
         name: 'Kamaldeen Iddrisu',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 4,
         img: '/user.png',
         name: 'Kamaldeen Iddrisu',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 5,
         img: '/user2.png',
         name: 'Chantel Annan',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 6,
-        img: '/use2.png',
+        img: '/user2.png',
         name: 'Chantel Annan',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 7,
         img: '/user2.png',
         name: 'Chantel Annan',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 8,
         img: '/user2.png',
         name: 'Chantel Annan',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 9,
         img: '/user.png',
         name: 'Chantel Annan',
-        icon: <BsSoundwave />
+        icon: <BsSoundwave className="text-2xl text-white bg-[#008080] rounded-full p-1 cursor-pointer" />
     },
     {
         id: 10,
         img: '/user.png',
         name: 'Chantel Annan',
-        icon: <HiOutlineDotsHorizontal />
+        icon: <HiOutlineDotsHorizontal className="text-2xl text-white bg-[#008080] rounded-full p-1 cursor-pointer" />
     },
     {
         id: 11,
         img: '/user.png',
         name: 'Chantel Annan',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer"  />
     },
     {
         id: 12,
         img: '/user.png',
         name: 'Chantel Annan',
-        icon: <BsMicMuteFill />
+        icon: <BsMicMuteFill className="text-2xl text-white cursor-pointer" />
     },
 ]
 
