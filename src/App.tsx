@@ -1,14 +1,16 @@
-import Cards from "./components/Cards"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
+
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from "./pages/Home";
+import Board from "./pages/Board";
 
 const App = () => {
   return (
-    <div className=" bg-[#040404DB]">
-        <Header />
-        <Cards />
-        <Footer />
-    </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/board" element={<Board />} />
+    </Routes>
+  </Router>
   )
 }
 
