@@ -1,14 +1,15 @@
 
 import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 import Home from "./pages/Home";
-import Board from "./pages/Board";
+import WhiteBoard from "./pages/WhiteBoard";
+
 
 const App = () => {
   return (
     <Router>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/board" element={<Board />} />
+      <Route path="/board" element={<WhiteBoard />} />
     </Routes>
   </Router>
   )

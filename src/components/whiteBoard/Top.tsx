@@ -6,24 +6,6 @@ import { useState } from "react";
 
 const TopBar = () => {
     const [open, setOpen] = useState<boolean>(false);
-
-    const getDateTimeInWords = () => {
-        const now = new Date();
-      
-        const formattedDate = now.toLocaleDateString("en-US", {
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-        });
-      
-        const formattedTime = now.toLocaleTimeString("en-US", {
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: true,
-        });
-      
-        return `${formattedDate} . ${formattedTime}`;
-    };
     
   return (
     <header className="relative py-4 border-b-[1px] border-[#D9D9D94A]">
@@ -54,7 +36,7 @@ const TopBar = () => {
                                 src={person.image}
                                 alt={person.name}
                                 key={index}
-                                className="w-8 h-8 rounded-full object-cover border-2 border-black -ml-4 first:ml-0"
+                                className="w-8 h-8 rounded-full object-cover -ml-4 first:ml-0"
                             />
                         ))}
                     </div>
