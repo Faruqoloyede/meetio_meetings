@@ -7,10 +7,10 @@ import { IoMdClose } from "react-icons/io";
 
 const Video = () => {
   return (
-    <div className="fixed top-32 right-20 z-40 bg-[#4D4D4D] p-3 shadow-lg min-w-[350px] min-h-[300px]">
+    <div className="absolute top-28 right-20 z-40 bg-[#4D4D4D] p-2 shadow-lg min-w-[200px] rounded-md">
         <div className="flex flex-col gap-2">
-            <p className="text-xs text-white font-normal">Meetio.com</p>
-            <div className="flex items-center justify-between">
+            <p className="text-xs text-white font-normal w-[50px]">Meetio.com</p>
+            <div className="flex items-center justify-between gap-5">
                  <div className="flex items-center gap-2">
                  <div className="flex items-center bg-white p-1 rounded-full gap-2 cursor-pointer">
                     <div className="flex">
@@ -29,15 +29,15 @@ const Video = () => {
                     </span>
                         <RiArrowDropDownLine className="text-[30px] text-[#000000]" />
                     </div>
-                    <img src={vector} alt="icon" className="w-5 h-5 cursor-pointer" />
+                    <img src={vector} alt="icon" className="w-3 h-3 cursor-pointer" />
                  </div>
-                 <div className="flex justify-end gap-2 text-white text-[28px] cursor-pointer">
+                 <div className="flex justify-end gap-2 text-white text-sm cursor-pointer">
                     <TbBrowserMaximize />
                     <IoMdClose />
                  </div>
             </div>
-            <div className="">
-                <img src={video} alt="man" className="object-contain w-[350px]" />
+            <div className="mt-3">
+                <img src={video} alt="man" className="object-contain " />
             </div>
         </div>
     </div>

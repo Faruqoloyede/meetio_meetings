@@ -2,6 +2,7 @@ import ToolBar from "../components/whiteBoard/ToolBar"
 import TopBar from "../components/whiteBoard/Top"
 import Board from "../components/whiteBoard/Board"
 import Video from "../components/whiteBoard/Video"
+import Bottom from "../components/whiteBoard/Bottom"
 
 
 const WhiteBoard = () => {
@@ -13,6 +14,7 @@ const WhiteBoard = () => {
         <Board />
         <Video />
       </div>
+      <Bottom />
     </div>
   )
 }
