@@ -4,10 +4,12 @@ import { TbBrowserMaximize } from "react-icons/tb";
 import vector from "../../../public/Vector.png";
 import video from "../../../public/video.png";
 import { IoMdClose } from "react-icons/io";
+import { useState } from "react";
 
 const Video = () => {
+    const [show, setShow] = useState(true)
   return (
-    <div className="absolute top-28 right-20 z-40 bg-[#4D4D4D] p-2 shadow-lg min-w-[200px] rounded-md">
+    <div className={`absolute top-28 right-20 z-40 bg-[#4D4D4D] p-2 shadow-lg  rounded-md ${show ? "block" : "hidden"}`}>
         <div className="flex flex-col gap-2">
             <p className="text-xs text-white font-normal w-[50px]">Meetio.com</p>
             <div className="flex items-center justify-between gap-5">
@@ -33,7 +35,7 @@ const Video = () => {
                  </div>
                  <div className="flex justify-end gap-2 text-white text-sm cursor-pointer">
                     <TbBrowserMaximize />
-                    <IoMdClose />
+                    <IoMdClose onClick={()=> setShow(false)} />
                  </div>
             </div>
             <div className="mt-3">
